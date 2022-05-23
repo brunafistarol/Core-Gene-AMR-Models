@@ -48,10 +48,10 @@ fi
 # Download data
 ###
 
-echo "Downloading data..."
-curl ftp://ftp.patricbrc.org/datasets/Nguyen_et_al_2020.tar.gz > $oDir/Nguyen_et_al_2020.tar.gz
-echo "Decompressing data..."
-tar -xzf $oDir/Nguyen_et_al_2020.tar.gz -C $oDir
+#echo "Downloading data..."
+#curl ftp://ftp.patricbrc.org/datasets/Nguyen_et_al_2020.tar.gz > $oDir/Nguyen_et_al_2020.tar.gz
+#echo "Decompressing data..."
+#tar -xzf $oDir/Nguyen_et_al_2020.tar.gz -C $oDir
 
 # set data directory root
 RDIR=$oDir/Nguyen_et_al_2020
